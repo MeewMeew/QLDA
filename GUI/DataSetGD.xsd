@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GiaiDoanDA" msprop:Generator_RowEvHandlerName="GiaiDoanDARowChangeEventHandler" msprop:Generator_RowDeletedName="GiaiDoanDARowDeleted" msprop:Generator_RowDeletingName="GiaiDoanDARowDeleting" msprop:Generator_RowEvArgName="GiaiDoanDARowChangeEvent" msprop:Generator_TablePropName="GiaiDoanDA" msprop:Generator_RowChangedName="GiaiDoanDARowChanged" msprop:Generator_RowChangingName="GiaiDoanDARowChanging" msprop:Generator_TableClassName="GiaiDoanDADataTable" msprop:Generator_RowClassName="GiaiDoanDARow" msprop:Generator_TableVarName="tableGiaiDoanDA" msprop:Generator_UserTableName="GiaiDoanDA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TEN_GD" msprop:Generator_ColumnPropNameInRow="TEN_GD" msprop:Generator_ColumnPropNameInTable="TEN_GDColumn" msprop:Generator_ColumnVarNameInTable="columnTEN_GD" msprop:Generator_UserColumnName="TEN_GD" type="xs:string" minOccurs="0" />
+              <xs:element name="TEN_NV" msprop:Generator_ColumnPropNameInRow="TEN_NV" msprop:Generator_ColumnPropNameInTable="TEN_NVColumn" msprop:Generator_ColumnVarNameInTable="columnTEN_NV" msprop:Generator_UserColumnName="TEN_NV" type="xs:string" minOccurs="0" />
+              <xs:element name="DANHGIA" msprop:Generator_ColumnPropNameInRow="DANHGIA" msprop:Generator_ColumnPropNameInTable="DANHGIAColumn" msprop:Generator_ColumnVarNameInTable="columnDANHGIA" msprop:Generator_UserColumnName="DANHGIA" type="xs:string" minOccurs="0" />
+              <xs:element name="NGAY_SINH" msprop:Generator_ColumnPropNameInRow="NGAY_SINH" msprop:Generator_ColumnPropNameInTable="NGAY_SINHColumn" msprop:Generator_ColumnVarNameInTable="columnNGAY_SINH" msprop:Generator_UserColumnName="NGAY_SINH" type="xs:string" minOccurs="0" />
+              <xs:element name="MA_NV" msprop:Generator_ColumnPropNameInRow="MA_NV" msprop:Generator_ColumnPropNameInTable="MA_NVColumn" msprop:Generator_ColumnVarNameInTable="columnMA_NV" msprop:Generator_UserColumnName="MA_NV" type="xs:string" minOccurs="0" />
+              <xs:element name="DCHI" msprop:Generator_ColumnPropNameInRow="DCHI" msprop:Generator_ColumnPropNameInTable="DCHIColumn" msprop:Generator_ColumnVarNameInTable="columnDCHI" msprop:Generator_UserColumnName="DCHI" type="xs:string" minOccurs="0" />
+              <xs:element name="MA_DONVI" msprop:Generator_ColumnPropNameInRow="MA_DONVI" msprop:Generator_ColumnPropNameInTable="MA_DONVIColumn" msprop:Generator_ColumnVarNameInTable="columnMA_DONVI" msprop:Generator_UserColumnName="MA_DONVI" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
